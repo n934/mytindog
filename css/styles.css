@@ -1,0 +1,199 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat';
+  font-weight:900;
+}
+/************SECTION COMMON PROPERTIES STYLING********/
+.coloured-section{
+  background-color: #ff4c68;
+  color: #fff;
+}
+.white-section{
+    background-color: #fff;
+}
+/********************TITLE SECTION**************/
+
+.big-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 4rem;
+  line-height: 1.5;
+  text-align: left;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/**navbar**/
+.navbar-brand {
+  font-family: 'ununtu';
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat-light';
+}
+
+/**download buttons**/
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/**title image**/
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/**********MEDIA QUERY********/
+@media (max-width:1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/*******************FEATURES SECTION*******************/
+#features {
+  padding: 3% 10%;
+  position: relative;
+}
+
+.fbox {
+    padding: 2%;
+}
+
+/**icons**/
+.icon {
+  font-family: 'Montserrat';
+  font-size: 1.4rem;
+  font-weight: 900;
+  margin: 2%;
+}
+
+.ficon:hover {
+  color: #ff4c68;
+}
+
+.ficon {
+  color: #ef8172;
+  margin-bottom: 0.5rem;
+}
+
+.p1 {
+  color: #8f8f8f;
+  font-family: 'Montserrat-normal';
+  font-size: 1.2rem;
+  padding: 0 3%;
+  margin: auto 10%;
+}
+
+/***********************TESTIMONIAL SECTION****************/
+#testimonials {
+    background-color: #ef8172;
+  }
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.test-heading {
+  font-weight: 200;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px 20px 50px;
+}
+
+#press {
+  background-color: #ef8172;
+  padding: 3%;
+}
+
+.pressicon {
+  width: 15%;
+  margin: 20px;
+}
+
+/*********************PRICING SECTION***********************/
+#pricing {
+  padding: 7%;
+
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.dog-names {
+  font-size: 2.5rem;
+}
+
+.promo {
+  font-size: 1.8rem;
+}
+
+.description {
+  color: #8f8f8f;
+  font-family: 'Montserrat-bold';
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+
+/******************CALL OF ACTION**************/
+#cta {
+    padding: 3% 15% 5%;
+}
+
+.cta-heading {
+  font-size: 3.2rem;
+  line-height: 1.5;
+  font-weight: 900;
+  margin: 50px;
+}
+
+.btn {
+  margin: 10px;
+}
+
+/************************FOOTER*********************/
+#footer {
+  padding: 2%;
+}
+
+.p-end {
+  font-family: 'Montserrat-bold';
+  color: #8f8f8f;
+  font-size: 1rem;
+  margin: auto 0;
+}
+
+.last-icon {
+  margin: 1% 0.5%;
+}
